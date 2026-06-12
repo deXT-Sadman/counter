@@ -38,13 +38,13 @@ class _HomeScreenState extends State<HomeScreen>
     return Scaffold(
       appBar: AppBar(
         title: Text("Home"),
-        bottom: TabBar(
-          controller: _tabController,
-          tabs: [
-            Tab(text: "Home"),
-            Tab(text: "About"),
-          ],
-        ),
+        // bottom: TabBar(
+        //   controller: _tabController,
+        //   tabs: [
+        //     Tab(text: "Home"),
+        //     Tab(text: "About"),
+        //   ],
+        // ),
       ),
       body: TabBarView(
         controller: _tabController,
